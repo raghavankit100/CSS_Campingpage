@@ -1,0 +1,36 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+.navbar ul li{
+    padding: 10px;
+}
+.navbar{
+    background-color: #333333;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 10vh;
+    width: 100%;
+    position: fixed;
+}
+.hero{
+    background-image: url(family-camping-at-sunset.jpg);
+    background-position: fixed;
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+    width: 100vw;
+    color: white;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
